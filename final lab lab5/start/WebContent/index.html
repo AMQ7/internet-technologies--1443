@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Front-end web development</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet"
+  href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+<script
+  src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script
+  src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+<script
+  src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+<style>
+.article-img, .carousel-img {
+  height: 200px;
+  background: #FFFFFF;
+}
+
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+}
+</style>
+</head>
+<body>
+
+  <header class="jumbotron text-center" style="margin-bottom: 0">
+    <h1>الـدمــام</h1>
+    <br>
+    <p>مدينة سعودية تقع على ساحل الخليج العربي، وهي حاضرة المنطقة الشرقية ومركزها الإداري وأهم مدنها؛ <br> فهي الميناء الرئيسي في المنطقة نظراً لأهمية موقعها على ثلاث جهات من الخليج العربي ومن الشمال والشرق والجنوب، <br> وتعدّ مركزاً سكنياً وتجارياً وتضم الهيئات الإدارية للمنطقة والدوائر الحكومية وعلى رأسها مقر إمارة المنطقة الشرقية.</p>
+  </header>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse"
+      data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    </div>
+  </nav>
+
+  <div id="carousel-section" class="carousel slide" data-ride="carousel">
+
+    <!-- Indicators -->
+    <ul class="carousel-indicators">
+      <li data-target="#carousel-section" data-slide-to="0"
+        class="active"></li>
+      <li data-target="#carousel-section" data-slide-to="1"></li>
+      <li data-target="#carousel-section" data-slide-to="2"></li>
+    </ul>
+
+    <!-- The slideshow -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/html-carousel.png" alt="HTML5"
+          class="carousel-img">
+        <div class="carousel-caption">
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/css-carousel.jpg" alt="CSS3" class="carousel-img">
+        <div class="carousel-caption">
+          <h3>CSS3</h3>
+          <p>CSS, the language that styles the web.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/bootstrap-carousel.png" alt="Bootstrap4"
+          class="carousel-img">
+        <div class="carousel-caption">
+        </div>
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="carousel-control-prev" href="#carousel-section"
+      data-slide="prev"> <span class="carousel-control-prev-icon"></span>
+    </a> <a class="carousel-control-next" href="#carousel-section"
+      data-slide="next"> <span class="carousel-control-next-icon"></span>
+    </a>
+
+  </div>
+  <hr>
+  <br>
+  <section class="container">
+    <section class="row">
+      <article class="col-sm-4">
+        <h3>القرية الشعبية</h3>
+        <img src="img/html.png" alt="HTML5" class="article-img">
+        <p>تُعد القرية الشعبية الدمام تجسيد لتاريخ المملكة على أرض الواقع المُعاصر، حيث أنها أشهر المعالم التي تعرض المقتنيات الأثرية والمخطوطات واللوحات الأثرية التي تحكي التاريخ في أجمل مبنى تم تصميمه بشكل القلاع ليُحاكي الماضي العتيق، وتضم القرية مجموعة من الأنشطة التي يُمكنكم الاستمتاع بها من أول تناول الطعام في جلسات المطعم الشعبي، وحتى التجول بقاعات القرية ومشاهدة الأثريات الإسلامية وغيرها.</p>
+      </article>
+      <article class="col-sm-4">
+        <h3>مركز الملك عبدالعزيز الثقافي</h3>
+        <img src="img/css.png" alt="CSS3" class="article-img">
+        <p>هو مركز ثقافي تملكه أرامكو السعودية، ويقع على نفس الموقع الذي اكتشف فيه بئر الخير أول ينبوع للنفط في المملكة العربية السعودية بمدينة الظهران، ويأتي تصميم مركز الملك عبد العزيز الثقافي العالمي على شكل مجموعة من الحجارة المتراصة التي تضم بين جنباتها مكتبة عصرية، ومركزاً للابتكار، وواحة للصغار تشكل أول متحف من نوعه للطفل في العالم العربي، ومتحف التاريخ الطبيعي، وقاعات للفنون، ومركز الأرشيف، ويتعالى في وسطه برج المعرفة الذي يقدم البرامج التعليمية للرواد من كل الأعمار. عام 2018 تم اختياره من قبل مجلة "تايم" الأمريكية بصفته أحد أعظم 100 مكان في العالم.</p>
+      </article>
+      <article class="col-sm-4">
+        <h3>الكرنيش</h3>
+        <img src="img/bootstrap4.png" alt="Bootstrap4"
+          class="article-img">
+        <p>يعتبر كورنيش الدمام من افضل الاماكن السياحية في الدمام للعائلات حيث يحظى بشعبية كبيرة، إذ يتوافد لزيارته عشاق التنزُّه بجانب البحر والراغبين في الاستمتاع بإطلالات الأُفق الرائعة، فهذا الكورنيش هو محطة لا يُمكن تفويتها خلال رحلة السياحة في الدمام .</p>
+      </article>
+    </section>
+  </section>
+
+  <footer class="jumbotron text-center" style="margin-bottom: 0">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6">
+          <ul class="list-group">
+            <li class="list-group-item"><a
+              href="https://twitter.com/amq_q7">Twitter</a></li>
+            <li class="list-group-item"><a
+              href="https://www.instagram.com/amq.q7/">Instagram</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-6">
+          <ul class="list-group">
+            <li class="list-group-item"><a href="docs/about.txt">About</a></li>
+            <li class="list-group-item"><a
+              href="https://github.com/AMQ7">GitHub</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+
+    <div>
+      <p>
+        Designed and built by <a
+          href="https://twitter.com/amq_q7"
+          target="_blank">Albaraa Alqurashi</a>
+      </p>
+
+      <p>
+        الإسم/ البراء مشعل القرشي الرقم الجامعي: 441004230
+      </p>
+    </div>
+  </footer>
+
+</body>
+</html>

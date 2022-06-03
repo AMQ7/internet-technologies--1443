@@ -1,0 +1,81 @@
+
+.anaglyph {
+	letter-spacing: 6px;
+	text-shadow: red 0 0, cyan 0 0;
+	transition: text-shadow 200ms;
+	color: #000;
+	font-size: large;
+	margin-right: 25px;
+	padding: 3px 5px 3px 5px;
+}
+
+.anaglyph:hover {
+	text-shadow: red -2px 0, cyan 2px 0;
+}
+
+header{
+	/*background-color: darkslategray;*/
+	background: url("img/32.gif") no-repeat;
+	background-size: cover;
+}
+
+#top{
+	font-size: xx-large;
+	color: white;
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+.nav {
+	text-align: left;
+	margin-left: 25px;
+}
+
+
+#bottomSite{
+	float: right;
+}
+
+#kosa{
+	margin-left: 25px;
+	margin-bottom: 5px;
+}
+
+table, th, td{
+	border: 1px solid;
+	text-align: center;
+	margin-left: 25px;
+}
+
+.kos{
+	width: 75px;
+}
+
+img{
+	width: 150px;
+	float: right;
+}
+
+body{
+	background-color: rgb(196, 196, 196);
+	font-size: medium;
+}
+
+footer{
+	background-color: darkslategray;
+	padding-bottom: 25px;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+#bottom{
+	color: #fff;
+}
+
+a{
+	color: #fff;
+}
+
+#topSite{
+	float: right;
+}
